@@ -11,7 +11,8 @@ Package.describe({
 });
 
 Npm.depends({
-  react: "0.13.3"
+  react: "0.13.3",
+  graspify: "2.0.3"
 });
 
 Package.onUse(function (api) {

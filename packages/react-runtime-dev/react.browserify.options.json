@@ -173,5 +173,13 @@
     "react/lib/traverseAllChildren",
     "react/lib/update",
     "react/lib/warning"
-  ]
+  ],
+  "transforms": {
+    "graspify": {
+      "replace": [
+        ["equery", "Object.create", "Object_create"],
+        ["equery", "Object.freeze", "Object_freeze"]
+      ]
+    }
+  }
 }
