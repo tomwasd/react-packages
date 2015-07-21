@@ -178,11 +178,9 @@
     "envify": {
       "NODE_ENV": "production"
     },
-    "graspify": {
-      "replace": [
-        ["equery", "Object.create", "Object_create"],
-        ["equery", "Object.freeze", "Object_freeze"]
-      ]
-    }
+    "graspify": [
+      ["equery", "Object.create", "Object_create"],
+      ["equery", "Object.freeze", "Object_freeze"]
+    ]
   }
 }
