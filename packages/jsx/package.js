@@ -1,4 +1,5 @@
 Package.describe({
+  // Heyo
   name: "jsx",
   summary: "Build plugin that transpiles .jsx files using Babel",
   version: '0.1.2',
