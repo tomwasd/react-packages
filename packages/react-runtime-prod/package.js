@@ -12,16 +12,16 @@ Package.describe({
 });
 
 Npm.depends({
-  react                              : "0.14.3",
-  "react-dom"                        : "0.14.3",
+  react                              : "0.14.6",
+  "react-dom"                        : "0.14.6",
   "browserify-replace-g"             : "0.9.1",
-  "react-addons-transition-group"    : "0.14.3",
-  "react-addons-css-transition-group": "0.14.3",
-  "react-addons-linked-state-mixin"  : "0.14.3",
-  "react-addons-create-fragment"     : "0.14.3",
-  "react-addons-update"              : "0.14.3",
-  "react-addons-pure-render-mixin"   : "0.14.3",
-  "react-addons-test-utils"          : "0.14.3"
+  "react-addons-transition-group"    : "0.14.6",
+  "react-addons-css-transition-group": "0.14.6",
+  "react-addons-linked-state-mixin"  : "0.14.6",
+  "react-addons-create-fragment"     : "0.14.6",
+  "react-addons-update"              : "0.14.6",
+  "react-addons-pure-render-mixin"   : "0.14.6",
+  "react-addons-test-utils"          : "0.14.6"
 });
 
 Package.onUse(function (api) {
